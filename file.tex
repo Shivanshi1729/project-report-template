@@ -1,0 +1,166 @@
+\documentclass{article}
+\usepackage[export]{adjustbox}
+\usepackage{csvsimple}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[a4paper]{geometry}
+\usepackage{pdfpages}
+\usepackage{courier}
+\usepackage{array}
+
+%remove this package
+\usepackage[english]{babel}
+\usepackage{blindtext}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+
+\lstset{
+	backgroundcolor=\color{white},
+    basicstyle=\footnotesize\ttfamily,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    commentstyle=\color{mygreen},
+    deletekeywords={...},
+    escapeinside={\%*}{*)},
+    extendedchars=false,
+    firstnumber=1,
+    frame=tb,
+    keepspaces=true, 
+    keywordstyle=\color{blue},
+    morekeywords={*,...}, 
+    numbers=left, 
+    numbersep=5pt,
+    numberstyle=\tiny\color{mygray},
+    rulecolor=\color{black}, 
+    showspaces=false,
+    showstringspaces=false, 
+    showtabs=false, 
+    stepnumber=1, 
+    stringstyle=\color{mymauve},
+    tabsize=2
+}
+
+\usepackage{multicol}
+
+\begin{document}
+
+\pagenumbering{gobble}
+\begin{center}
+    \bfseries{\huge{Project Requirement and Specification}}\\
+    \huge{on}\\
+    \huge{Project Name}
+\end{center}
+
+\vspace{1mm}
+
+\begin{center}
+    {
+        \LARGE
+        CSE V Semester Mini Project\\
+        2020-21
+    }
+\end{center}
+
+\vspace{4mm}
+
+\begin{center}
+    \includegraphics[width=0.41\textwidth]{logo2.pdf}
+\end{center}
+
+{
+\LARGE
+\begin{center}
+    \begin{tabular}{m{4.5cm}m{3cm}m{5cm}}
+        \textbf{Guided By:} & & \textbf{Submitted By:} \\
+        Mr. Robert & & Shivanshi \\
+        & & Roll No. - \textbf{241} \\
+    \end{tabular}
+\end{center}
+}
+
+\vspace{45mm}
+
+\noindent\rule{\textwidth}{0.4pt}
+
+\begin{center}
+{
+\large
+\textbf{DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING}\\
+}
+\vspace{3mm}
+{
+\LARGE
+\textbf{GRAPHIC ERA UNIVERSITY, DEHRADUN}
+}
+\end{center}
+
+\newpage
+\pagenumbering{arabic}
+
+\tableofcontents
+\newpage
+
+\newpage
+\section{About Project}
+
+\blindtext[1]
+
+\newpage
+\section{Requirement of Project}
+
+\blindtext[2]
+
+\subsection{Hardware Requirement}
+
+\blindlist{enumerate}[5]
+
+\subsection{Software Requirement}
+
+\blindlist{enumerate}[6]
+
+\newpage
+\section{Modules of Project}
+
+\subsection{Entry of Book}
+
+\blindtext[3]
+
+\subsection{Entry of Students}
+
+\blindtext[4]
+
+\subsection{Returning of Book}
+
+\blindtext[5]
+
+\newpage
+\section{Any other relevant information like(E-R Diagram, DFD etc)}
+
+\subsection{E-R Diagram}
+
+\blindtext[2]
+
+\subsection{Data Flow Diagram}
+
+\blindtext[2]
+
+\subsection{Any other if required according to project.}
+
+\blindtext[2]
+
+\newpage
+\section{References}
+
+\blindlist{enumerate}[10]
+
+\end{document}
